@@ -1,0 +1,65 @@
+/*
+Theme Name:     Big Blue - Cusomizer Edition
+Theme URI:      http://themesandco.com/customizr
+Description:    A child theme for the Customizr WordPress theme.  I made this to complement the appearance of Customizr with my personal touches.
+Description:    This child theme simply includes 2 files : style.css to add your custom css and functions.php where you can extend Customizr's core code. In order to keep your code as clean and flexible as possible, try to use Customizr's hooks API for your customizations. Do something awesome and have fun !
+Author:         Adrian Grimm
+Author URI:     https://adriangrimm.com
+Template:       customizr
+Version:        1.0.0
+*/
+
+/* Your awesome customizations start right here !
+-------------------------------------------------------------- */
+/* @import url('../customizr/style.css'); */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway&display=swap');
+
+body {
+    background-color: #fefefe;
+    color: #010203;
+    font-family: Raleway;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Josefin Sans';
+    color: #025fa1;
+}
+
+.branding .navbar-brand-sitename,
+.branding .header-tagline,
+.nav__title {
+    color: #025fa1;
+}
+
+.branding .navbar-brand-sitename {
+    font-family: 'Josefin Sans';
+}
+
+.branding .header-tagline {
+    font-size: 1.25rem;
+}
+
+.has-text-color,
+.has-text-align-center {
+    color: #025fa1;
+}
+
+a:hover {
+    color: #025fa1;
+}
+
+.czr-copyright-text,
+.czr-copyright-link,
+.czr-rights-text,
+.footer__credits {
+    color: #025fa1;
+}
+
+.footer-skin-dark .footer__wrapper a {
+    color: #025fa1;
+}
