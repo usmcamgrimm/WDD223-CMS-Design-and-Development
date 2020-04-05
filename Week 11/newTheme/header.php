@@ -139,7 +139,7 @@ if ( apply_filters( 'czr_ms', false ) ) {
   			<?php if(is_front_page() ) {
 				// only load the logo image
 			?>
-				<img src="https://adriangrimm.com/wp-content/uploads/2020/04/grimmLogo.png"/>
+				<img src="<?php echo site_url("https://adriangrimm.com/wp-content/uploads/2020/04/grimmLogo.png"); ?>"/>
             
             <?php
             } else {
