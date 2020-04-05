@@ -15,11 +15,11 @@ Version:        1.0.0
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway&display=swap');
 
 body {
-    background-image: url("background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #010203;
-    font-family: Raleway;
+  background-image: url('background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #010203;
+  font-family: Raleway;
 }
 
 h1,
@@ -28,44 +28,46 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Josefin Sans';
-    color: #67ade0;
+  font-family: 'Josefin Sans';
+  color: #67ade0;
 }
 
 .branding .navbar-brand-sitename,
 .branding .header-tagline,
 .nav__title {
-    color: #67ade0;
+  color: #67ade0;
 }
 
 *::before {
-    color: #67ade0;
+  color: #67ade0;
 }
 
 .branding .navbar-brand-sitename {
-    font-family: 'Josefin Sans';
+  font-family: 'Josefin Sans';
 }
 
 .branding .header-tagline {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 .has-text-color,
 .has-text-align-center {
-    color: #67ade0;
+  color: #67ade0;
+  border-bottom: 2px solid #01446e;
+  padding: 8px;
 }
 
 a:hover {
-    color: #67ade0;
+  color: #67ade0;
 }
 
 .czr-copyright-text,
 .czr-copyright-link,
 .czr-rights-text,
 .footer__credits {
-    color: #67ade0;
+  color: #67ade0;
 }
 
 .footer-skin-dark .footer__wrapper a {
-    color: #67ade0;
+  color: #67ade0;
 }
