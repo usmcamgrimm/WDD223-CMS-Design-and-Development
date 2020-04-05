@@ -1,5 +1,5 @@
 /*
-Theme Name:     Big Blue - Cusomizer Edition
+Theme Name:     Big Blue - Customizr Edition
 Theme URI:      http://themesandco.com/customizr
 Description:    A child theme for the Customizr WordPress theme.  I made this to complement the appearance of Customizr with my personal touches.
 Description:    This child theme simply includes 2 files : style.css to add your custom css and functions.php where you can extend Customizr's core code. In order to keep your code as clean and flexible as possible, try to use Customizr's hooks API for your customizations. Do something awesome and have fun !
@@ -70,4 +70,9 @@ a:hover {
 
 .footer-skin-dark .footer__wrapper a {
   color: #67ade0;
+}
+
+.meta-nav-title,
+.meta-nav-title a {
+  color: 037ecc;
 }
