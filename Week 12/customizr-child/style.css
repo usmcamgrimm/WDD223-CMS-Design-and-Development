@@ -23,7 +23,10 @@ body {
 }
 
 h1,
-h2,
+h2 {
+  color: #037ecc;
+}
+
 h3,
 h4,
 h5,
@@ -74,5 +77,5 @@ a:hover {
 
 .meta-nav-title,
 .meta-nav-title a {
-  color: 037ecc;
+  color: #037ecc;
 }
