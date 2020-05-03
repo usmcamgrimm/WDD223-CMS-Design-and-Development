@@ -1,0 +1,5 @@
+Name: The Most Interesting Programmer
+Price: $9.99
+Description: "I don't always test my code but when I do, I do it in production" in white on American Apparel's fine jersey, 100% cotton tee in black.
+
+*This product is made in the US.
