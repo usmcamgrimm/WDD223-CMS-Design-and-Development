@@ -11,3 +11,17 @@ Updated: 2020-05-04 14:28:25
 
 */
 
+@import url('https://fonts.googleapis.com/css?family=Federo|Raleway&display=swap');
+
+body {
+    background-color: #fefefe;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Federo';
+}
