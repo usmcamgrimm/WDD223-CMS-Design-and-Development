@@ -44,3 +44,15 @@ p {
     font-family: 'Raleway';
     color: #212121;
 }
+
+#sidebar-footer {
+    background-color: #fefefe;
+    font-family: 'Raleway';
+    color: #757575;
+}
+
+#colophon {
+    background-color: #212121;
+    font-family: 'Federo';
+    color: #eb586f;
+}
