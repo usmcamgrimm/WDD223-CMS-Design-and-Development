@@ -26,13 +26,7 @@ add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css', 10 );
 /**
  * Footer credits
  */
-/*
 function theshop_footer_credits() {
-	echo '<a href="' . esc_url( __( 'http://wordpress.org/', 'theshop' ) ) . '">';
-		printf( __( 'Proudly powered by %s', 'theshop' ), 'WordPress' );
-	echo '</a>';
-	echo '<span class="sep"> | </span>';
-	printf( __( 'Theme: %2$s by %1$s.', 'theshop' ), 'aThemes', '<a href="http://athemes.com/theme/theshop" rel="nofollow">TheShop</a>' );
+	printf( '&copy;2020 TeePress' );
 }
 add_action( 'theshop_footer', 'theshop_footer_credits' );
-*/
